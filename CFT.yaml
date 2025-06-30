@@ -11,18 +11,6 @@ Mappings:
       KeyName: AMAZON-LNX-KEY
 
 Resources:
-  MyStack:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: ...
-      RoleARN: arn:aws:iam::216989104632:role/Git-AdminRole  
-  CCITAdminUser:
-    Type: AWS::IAM::User
-    Properties:
-      UserName: CCITAdmin
-      ManagedPolicyArns:
-        - arn:aws:iam::aws:policy/AdministratorAccess
-
   CCITDev1User:
     Type: AWS::IAM::User
     Properties:
