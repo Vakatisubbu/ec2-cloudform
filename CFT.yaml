@@ -247,11 +247,6 @@ Resources:
       RouteTableId: !Ref PrivateRouteTable
 
 Outputs:
-
-  AdminUser:
-    Description: "IAM Admin User created"
-    Value: !Ref CCITAdminUser
-
   DevUser1:
     Description: "IAM Dev User 1 created"
     Value: !Ref CCITDev1User
